@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingBottom="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TableRow
+
+       >
+
+        <ImageView
+            android:id="@+id/img_academ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/txt_academ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </TableRow>
+  <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img_academ"/>
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:text="ldhskgcdscbsjcsd"
+            android:textColor="#949494"
+            android:id="@+id/txt_academ"
+            android:layout_toRightOf="@+id/img_academ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+-->
+</TableLayout>

@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.vineesh.zeta_new.AcademyFra">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:orientation="horizontal"
+                android:id="@+id/l1_aca"
+                android:background="@drawable/academy_one">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_below="@id/l1_aca"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="15dp"
+                    android:gravity="fill"
+                    android:textColor="#585858"
+                    android:text="ZETA"
+                    android:id="@+id/t1_aca"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="ACADEMY OF EXCELLENCE"
+                    android:textColor="#31a7e8"
+                    android:textStyle="bold"
+                    android:gravity="fill"
+                    android:layout_toRightOf="@id/t1_aca"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/l2_aca"
+                    android:layout_below="@id/t1_aca">
+
+                    <TextView
+                        android:layout_marginTop="13dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Academy"
+                        android:textColor="#6d6d6d"
+                        android:id="@+id/t2_aca"
+                        android:gravity="fill"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:orientation="horizontal"
+
+
+                        >
+                        <TextView
+                            android:layout_width="40dp"
+
+                            android:textColor="#2b2a2a"
+                            android:text="OUR"
+                            android:textStyle="bold"
+                            android:gravity="fill"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:gravity="fill"
+                            android:textColor="#31a7e8"
+                            android:textStyle="bold"
+                            android:text="FEATURES"/>
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:layout_below="@id/l2_aca">
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="502dp"
+                        android:foregroundGravity="fill"
+                        android:divider="#fff"
+                        android:id="@+id/listview_academy"
+                        android:background="#ffffff"
+                        >
+
+                    </ListView>
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+</FrameLayout>

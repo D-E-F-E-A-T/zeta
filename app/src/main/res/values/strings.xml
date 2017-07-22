@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">zeta</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="Academy">Recent Studies conducted among school and college-going students, suggest their deep inability to face failures and disappointments. Studies also conclude that, more often than not, these youngsters blame themselves for their failures even when it is not always so. This self-critical nature furthermore impacts the child’s self-esteem and self-confidence. This situation in turn is aggravated by the fact that youngsters of today’s generation find it difficult to express themselves. Lack of expression in turn leads to lack of communication and a communication gap develops. Over-expectations at home or in school / college, peer-pressure, emotional tensions are just few terms that define the less-discussed part of teenage lives.
+Students of today’s generation are under tremendous pressure and we at Zeta understand that and hence our training programs are tailored keeping the needs of our students in mind.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="aboutus">Zeta IT Innovations (I) Pvt. Ltd. is a leading IT &amp; Business consultancy services provider based in Thrissur, Kerala, India. Incorporated in the year 2005, by the incumbent MD- Mr. Liju P.R, Zeta, was one of the pioneer firms in the prodigious field of IT enabled services. An alumnus of LBS College of Engineering, Kasargod, Kerala, India, Mr. Liju had previously worked with many a leading IT Applications’ companies. It was a conscious decision to stay back and tread the unbeaten track of entrepreneurship that formed the foundation of Zeta.
+Today Zeta is a reputed name in India’s IT sector and an oft-mentioned one in the Middle East’s IT Industry. We offer a host of services across the IT-arena with focus on Small &amp; Medium Businesses, Insurance, Telecom, Retail, PSUs and Government establishments. Our extensive and established reach across the country is evident by hundreds of satisfied and consistent clients, across the nation. Some of these names of much renown would include MES Group of Institutions, Amala Hospital and Toyota.
+The company in its latest foray into the international markets has initiated an expansion bid in South-Asian and Middle-Eastern countries. On the technological front Zeta is all geared up for some innovative solutions in the field of enterprise-mobility.
+Between everything said and done we are what our mission is- “One window for all your IT needs.”</string>
+
+    <string name="vision">this vision need to edit ...this is for dummy purpose Today Zeta is a reputed name in India’s IT sector and an oft-mentioned one in the Middle East’s IT Industry. We offer a host of services across the IT-arena with focus on Small &amp; Medium Businesses, Insurance, Telecom, Retail, PSUs and Government establishments. Our extensive and established reach across the country is evident by hundreds of satisfied and consistent clients, across the nation. Some of these names of much renown would include MES Group of Institutions, Amala Hospital and Toyota.</string>
+    <string name="mission">this vision need to edit ...this is for dummy purposeZeta IT Innovations (I) Pvt. Ltd. is a leading IT &amp; Business consultancy services provider based in Thrissur, Kerala, India. Incorporated in the year 2005, by the incumbent MD- Mr. Liju P.R, Zeta, was one of the pioneer firms in the prodigious field of IT enabled services. An alumnus of LBS College of Engineering, Kasargod, Kerala, India, Mr. Liju had previously worked with many a leading IT Applications’ companies. It was a conscious decision to stay back and tread the unbeaten track of entrepreneurship that formed the foundation of Zeta.
+Today Zeta is a reputed name in India’s IT sector and an oft-mentioned one in the Middle East’s IT Industry. We offer a host of services across the IT-arena with focus on Small &amp; Medium Businesses, Insurance, Telecom, Retail, PSUs and Government establishments. Our extensive and established reach across the country is evident by hundreds of satisfied and consistent clients, across the nation. Some of these names of much renown would include MES Group of Institutions, Amala Hospital and Toyota.</string>
+
+    <string name="itsoftware">
+        "\n"Operating Systems (like Windows)"\n"
+"\n"Business Software (Tally, Busy, AutoCad etc.)"\n"
+"\n"Management Software (for schools, colleges, libraries, hospitals etc.)"\n"
+"\n"ERP"\n"
+"\n"Generic and utility software (like Antivirus etc.)"\n"</string>
+    <string name="ithardware_services">"\n"Setting up Computer Labs"\n"
+"\n"Setting up e-classrooms"\n"
+"\n"Consultancy services"\n"
+"\n"Security Solutions\n"</string>
+
+    <string name="hardwaresupplies">"\n"Computers: Desktop PCs (both branded as well as assembled) and Laptop PCs"\n"
+"\n"Printers: Inkjets and Laser printers"\n"
+"\n"Peripheral Devices: Scanners, Projectors, Servers and Networking Components"\n"
+"\n"Computer components and peripherals of all types."\n"
+"\n"Security and Surveillance Systems (like CCTV Cams etc.)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="zetaitdivision">Zeta IT Services was founded, keeping in mind the dynamic needs of today’s businesses and society. Technology is constantly and continuously evolving. Bigger and Better things, are foraying into the markets every day. This is not just a trend but also a need. Keeping in stride with the changing times, Zeta’s IT Division provides a wide range of IT Services and Solutions which are at par with global IT standards.
+Every client on our premises, approaches us with a different need. So also our veteran executives and professionals ensure that these demands are met. Solutions customized to the needs of our customer and their satisfaction forms the core of our beliefs.
+We classify our offerings broadly into two categories- IT Hardware Services and IT Software Services</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

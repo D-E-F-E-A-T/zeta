@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vineesh.zeta_new.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <RelativeLayout
+       android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_main_container"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_marginBottom="52dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:weightSum="2"
+            android:background="#e3e3e3"
+            android:id="@+id/linearLayout_one"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/home"
+                android:scaleType="fitXY"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:weightSum="2"
+            android:id="@+id/linearLayout_two"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout_one">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:id="@+id/lyt_aboutus"
+                    android:layout_marginRight="2dp"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:orientation="vertical"
+
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:id="@+id/ic_aboutus"
+                            android:src="@drawable/ic_aboutus"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="About us"
+                            android:textColor="#3a3a3a"
+                            android:gravity="center"
+                           />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                 <LinearLayout
+                android:layout_width="0dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                     android:id="@+id/lyt_innovation"
+                     android:gravity="center"
+                android:layout_height="match_parent">
+
+                     <LinearLayout
+                         android:layout_width="70dp"
+                         android:orientation="vertical"
+
+                         android:layout_height="wrap_content"
+                         android:weightSum="1">
+                         <ImageView
+
+                             android:layout_width="match_parent"
+                             android:layout_height="40dp"
+                             android:id="@+id/ic_innovation"
+                             android:src="@drawable/ic_innovation"/>
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginTop="10dp"
+                             android:text="Innovation"
+                             android:textColor="#3a3a3a"
+                             android:gravity="center" />
+                     </LinearLayout>
+
+
+
+                 </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:weightSum="2"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/linearLayout_three"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout_two">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:id="@+id/lyt_academy"
+                android:layout_marginRight="2dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/ic_accademi"
+                        android:src="@drawable/ic_accademy"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Academy"
+                        android:textColor="#3a3a3a"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/lyt_gallery"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/ic_gallery"
+                        android:src="@drawable/ic_gallery"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Gallery"
+                        android:textColor="#3a3a3a"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:weightSum="2"
+            android:id="@+id/linearlayout_four"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout_three">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:id="@+id/lyt_contactus"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/ic_contactus"
+                        android:src="@drawable/ic_contactus"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Contact Us"
+                        android:textColor="#3a3a3a"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/lyt_enquiry"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/ic_Enquiry"
+                        android:src="@drawable/ic_enquiry"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Enquiry"
+                        android:textColor="#3a3a3a"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:id="@+id/footer_layout"
+        android:layout_alignBottom="@id/parent_layout"
+        android:weightSum="3">
+        <ImageButton
+            android:layout_width="0dp"
+            android:background="#e1e1e1"
+            android:layout_weight="1"
+            android:id="@+id/imgb_call"
+            android:src="@drawable/ic_call"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imgb_facebook"
+            android:background="#e1e1e1"
+            android:layout_marginRight="1dp"
+            android:src="@drawable/ic_facebook"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imgb_web"
+            android:background="#e1e1e1"
+            android:src="@drawable/ic_web"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>
